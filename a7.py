@@ -36,6 +36,8 @@ class BayesClassifier:
             self.neg_freqs = self.load_dict(self.neg_filename)
         else:
             print("Data files not found - running training...")
+
+        # A change
             
 
     def train(self) -> None:
@@ -241,8 +243,8 @@ class BayesClassifier:
             freqs - dictionary of frequencies to update
         """
         # TODO: your work here
-        for word in words
-            if word not in update_dict:
+        for word in words:
+            if word not in a_dictionary:
                 if word in freqs:
                     freqs[word]+=1
                 else:
