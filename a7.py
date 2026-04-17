@@ -241,8 +241,8 @@ class BayesClassifier:
             freqs - dictionary of frequencies to update
         """
         # TODO: your work here
-        for word in words:
-            if word not in Dict:
+        for word in words
+            if word not in update_dict:
                 if word in freqs:
                     freqs[word]+=1
                 else:
